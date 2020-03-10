@@ -1,10 +1,10 @@
 import React from "react";
 
-export default function Author({ name = "Dave", handle = "@dceddia" }) {
+export default function Author({ name = "Dave", email = "@dceddia" }) {
   return (
     <div>
       <span>{name}</span>
-      <span>{handle}</span>
+      <span>{email}</span>
     </div>
   );
 }

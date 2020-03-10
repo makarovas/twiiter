@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-
+import { fromNow } from "moment";
 export default class Time extends Component {
   constructor(props) {
     super(props);
@@ -22,11 +22,12 @@ export default class Time extends Component {
   // }
 
   render() {
-    const { hours, min, sec } = this.state;
+    console.log(this.props.time);
+    // const { hours, min, sec } = this.state;
     return (
       <div>
         <span>
-          {20} {20} {20}
+          {this.props.time.slice(0, 10)}
           {/* {hours}: {min}: {sec} */}
         </span>
       </div>

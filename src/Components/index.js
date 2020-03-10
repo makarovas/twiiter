@@ -1,3 +1,3 @@
-import TweetPage from "./TweetPage";
+import Tweet from "./Tweet";
 
-export default TweetPage;
+export default Tweet;

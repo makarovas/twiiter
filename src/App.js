@@ -1,8 +1,8 @@
 import React from "react";
-import TweetPage from "./Components";
-
+import Tweet from "./Components";
+import { data } from "./Components/data";
 function App() {
-  return <TweetPage />;
+  return <Tweet tweet={data} />;
 }
 
 export default App;
